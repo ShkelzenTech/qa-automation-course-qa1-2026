@@ -88,11 +88,11 @@ let car = "Toyota";
 
 switch (car) {
   case "Toyota":
-    console.log("You chose a BMW.");
+    console.log("You chose a Toyota.");
     break;
 
   case "BMW":
-    console.log("You chose a Toyota.");
+    console.log("You chose a BMW.");
     break;
 
   case "Ford":
@@ -101,4 +101,23 @@ switch (car) {
 
   default:
     console.log("Car not found.");
+}
+
+let thisWeek = "rain";
+
+switch (thisWeek) {
+  case "sunny":
+    console.log("it will be sunny");
+    break;
+  case "cloudy":
+    console.log("it will be cloudy");
+    break;
+  case "snow":
+    console.log("it will snow");
+    break;
+  case "rain":
+    console.log("it will rain");
+    break;
+  default:
+    console.log("we don't know the weather");
 }

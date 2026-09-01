@@ -9,3 +9,7 @@ if ("0") {
 }
 
 console.log("Hi" && "Hello");
+
+console.log("lol" || "whatever");
+
+console.log("" && "hello");

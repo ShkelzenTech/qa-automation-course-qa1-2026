@@ -58,22 +58,24 @@ console.log(numberOne !== numberTwo);
 
 // Part 3: Logical Operators
 
-// &&
+// 1. Logical AND (&&)
 
 let seat = null;
 let game = "on";
 console.log(seat && game);
 
-// ||
+// Logical OR (||)
 
 console.log(seat || game);
 
-// !
+// 3. Logical NOT (!)
 
 let isSkyGreen = true;
 console.log(!isSkyGreen);
 
 // Part 4: Truthy vs Falsy
+
+// 1. Falsy Value
 
 let numberFalsy = 0;
 if ((numberFalsy = 0));
@@ -81,10 +83,14 @@ if ((numberFalsy = 0));
   console.log("Falsy value detected");
 }
 
+// 2. Truthy Value
+
 let truthyString = "rome" || "tokyo";
 if (truthyString !== "whatever") {
   console.log("Truthy value detected");
 }
+
+// 3. Default Value with ||
 
 let country = "" || "Italy";
 console.log(country);

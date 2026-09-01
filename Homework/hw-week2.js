@@ -59,6 +59,8 @@ const person = {
 };
 console.log(person);
 
+//  If Statement :
+
 let number = 25;
 if (number > 14) {
   console.log("Positive number");
@@ -72,6 +74,17 @@ if (likesBurgers) {
   console.log("I hate Burgers.");
 }
 
+//If-Else
+
+let ageToVote = 18;
+if (ageToVote >= 18) {
+  console.log("eligible to vote");
+} else {
+  console.log("Not eligible to Vote");
+}
+
+// Else If:
+
 let score = 81;
 
 if (score >= 90) {
@@ -83,6 +96,8 @@ if (score >= 90) {
 } else {
   console.log("Fail");
 }
+
+// Switch Statement:
 
 let car = "Toyota";
 
